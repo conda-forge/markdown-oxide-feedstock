@@ -1,5 +1,5 @@
 {% set name = "markdown-oxide" %}
-{% set version = "0.25.10" %}
+{% set version = "0.25.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/Feel-ix-343/markdown-oxide/archive/v{{ version }}.tar.gz
-  sha256: 67217dc2f460a21bf64493d2ebe860cb93563a62aa5eecc28c24cf38ee7100ed
+  sha256: 274446b861ebbf3098dcb7e0a5d3135df88df34b16a2c128288f900391dfbf75
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
